@@ -100,11 +100,33 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 5 -> 6
+
+ssh command:
+
+```bash
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 6 -> 7
 
@@ -116,11 +138,33 @@ ssh bandit6@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 7 -> 8
+
+ssh command:
+
+```bash
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 8 -> 9
 
@@ -132,11 +176,33 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 9 -> 10
+
+ssh command:
+
+```bash
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 10 -> 11
 
@@ -148,11 +214,33 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 11 -> 12
+
+ssh command:
+
+```bash
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 12 -> 13
 
@@ -164,11 +252,33 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 13 -> 14
+
+ssh command:
+
+```bash
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 14 -> 15
 
@@ -180,11 +290,33 @@ ssh bandit14@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 15 -> 16
+
+ssh command:
+
+```bash
+ssh bandit15@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 16 -> 17
 
@@ -196,11 +328,33 @@ ssh bandit16@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 17 -> 18
+
+ssh command:
+
+```bash
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 18 -> 19
 
@@ -212,11 +366,33 @@ ssh bandit18@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 19 -> 20
+
+ssh command:
+
+```bash
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 20 -> 21
 
@@ -228,11 +404,33 @@ ssh bandit20@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 21 -> 22
+
+ssh command:
+
+```bash
+ssh bandit21@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 22 -> 23
 
@@ -244,11 +442,33 @@ ssh bandit22@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 23 -> 24
+
+ssh command:
+
+```bash
+ssh bandit23@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 24 -> 25
 
@@ -260,11 +480,33 @@ ssh bandit24@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 25 -> 26
+
+ssh command:
+
+```bash
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 26 -> 27
 
@@ -276,11 +518,33 @@ ssh bandit26@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 27 -> 28
+
+ssh command:
+
+```bash
+ssh bandit27@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 28 -> 29
 
@@ -292,11 +556,33 @@ ssh bandit28@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 29 -> 30
+
+ssh command:
+
+```bash
+ssh bandit29@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 30 -> 31
 
@@ -308,11 +594,33 @@ ssh bandit30@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 31 -> 32
+
+ssh command:
+
+```bash
+ssh bandit31@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
 ## Bandit 32 -> 33
 
@@ -324,9 +632,31 @@ ssh bandit32@bandit.labs.overthewire.org -p 2220
 
 ### Info
 
+
+
 ### Solution
+
+
 
 Output:
     password
 
+## Bandit 33 -> 34
+
+ssh command:
+
+```bash
+ssh bandit33@bandit.labs.overthewire.org -p 2220
+```
+
+### Info
+
+
+
+### Solution
+
+
+
+Output:
+    password
 
