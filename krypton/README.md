@@ -77,3 +77,74 @@ ssh krypton2@krypton.labs.overthewire.org -p 2231
 ```
 
 ### Info
+
+ROT13 is a simple substitution cipher.
+
+Substitution ciphers are a simple replacement algorithm. In this example of a substitution cipher, we will explore a ‘monoalphebetic’ cipher. Monoalphebetic means, literally, “one alphabet” and you will see why.
+
+This level contains an old form of cipher called a ‘Caesar Cipher’. A Caesar cipher shifts the alphabet by a set number. For example:
+
+plain:  a b c d e f g h i j k ...
+cipher: G H I J K L M N O P Q ...
+
+In this example, the letter ‘a’ in plaintext is replaced by a ‘G’ in the ciphertext so, for example, the plaintext ‘bad’ becomes ‘HGJ’ in ciphertext.
+
+The password for level 3 is in the file krypton3. It is in 5 letter group ciphertext. It is encrypted with a Caesar Cipher. Without any further information, this cipher text may be difficult to break. You do not have direct access to the key, however you do have access to a program that will encrypt anything you wish to give it using the key. If you think logically, this is completely easy.
+
+One shot can solve it!
+
+Have fun.
+
+Additional Information:
+
+The encrypt binary will look for the keyfile in your current working directory. Therefore, it might be best to create a working direcory in /tmp and in there a link to the keyfile. As the encrypt binary runs setuid krypton3, you also need to give krypton3 access to your working directory.
+
+### Solution
+
+Running the encrypt script given, I tested it with an alphabet string to see how it changes the values. I then used rotate.py to see how far it rotated. I saw it rotates things by 12. To decode it, I can rotate it by 14.
+
+Commands:
+```bash
+# On remote
+echo "abcdefghijklmnopqrstuvwxyz" > test.txt
+/krypton/krypton2/encrypt test.txt # Outputs MNOPQRST...
+# On local machine
+echo "abcdefghijklmnopqrstuvwxyz" > test.txt # recreate
+./rotate.py ./test.txt # Find number for MNOPQRST... -> 14
+sftp sftp://krypton2@krypton.labs.overthewire.org:2231//krypton/krypton2/krypton3
+# ^^^ put in ROTTEN for password ^^^
+./rotate.py ./krypton3 -r 14
+```
+
+Output:
+    CAESARISEASY
+
+## Krypton 3 -> 4
+
+ssh command:
+```bash
+ssh krypton3@krypton.labs.overthewire.org -p 2231
+```
+
+### Info
+
+Well done. You’ve moved past an easy substitution cipher.
+
+The main weakness of a simple substitution cipher is repeated use of a simple key. In the previous exercise you were able to introduce arbitrary plaintext to expose the key. In this example, the cipher mechanism is not available to you, the attacker.
+
+However, you have been lucky. You have intercepted more than one message. The password to the next level is found in the file ‘krypton4’. You have also found 3 other files. (found1, found2, found3)
+
+You know the following important details:
+
+    The message plaintexts are in American English (*** very important) - They were produced from the same key (*** even better!)
+
+Enjoy.
+
+### Solution
+
+Grabbed all of the files to local machine and copied them to an external website and played around with the text substitutions. (https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html)
+
+Commands:
+```bash
+
+```

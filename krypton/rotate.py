@@ -33,4 +33,4 @@ if args.rots is None: # We default to all
     args.rots = range(27)
 
 for i in args.rots:
-    print(rotate_text(enc_text, i))
+    print(f'{i} {rotate_text(enc_text, i)}')
